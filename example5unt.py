@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
+from tracer import tracefunc
 
 import os
 
 import pdb; pdb.set_trace()
+
+# @tracefunc
 def get_path(fname):
     """Return file's path or empty string if no path
     """
